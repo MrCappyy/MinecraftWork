@@ -1,0 +1,31 @@
+name: CustomFishingRewards
+main: com.mrcappy.plugins.customfishingrewards.CustomFishingRewards
+version: 0.0.1
+api-version: 1.21
+description: A plugin that adds custom fishing rewards and stats tracking.
+author: MrCappy
+
+commands:
+  fishstats:
+    description: View your fishing statistics.
+    usage: /fishstats
+    permission: customfishing.stats
+  fishreload:
+    description: Reload the plugin configuration.
+    usage: /fishreload
+    permission: customfishing.reload
+  customfishreload:
+    description: Reset the plugin configuration to defaults.
+    usage: /customfishreload
+    permission: customfishing.reset
+
+permissions:
+  customfishing.stats:
+    description: Allows viewing fishing statistics.
+    default: true
+  customfishing.reload:
+    description: Allows reloading the configuration.
+    default: op
+  customfishing.reset:
+    description: Allows resetting the configuration to defaults.
+    default: op
