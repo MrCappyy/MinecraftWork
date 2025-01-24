@@ -1,0 +1,15 @@
+name: BackpackPlugin
+version: 1.0
+main: com.mrcappy.plugins.backpackplugin.BackpackPlugin
+api-version: 1.21
+commands:
+  backpack:
+    description: Open your backpack or upgrade it.
+    usage: /backpack [upgrade]
+permissions:
+  backpack.use:
+    description: Allows a player to open their backpack.
+    default: true
+  backpack.upgrade:
+    description: Allows a player to upgrade their backpack.
+    default: op

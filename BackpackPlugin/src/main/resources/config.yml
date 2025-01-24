@@ -1,0 +1,8 @@
+default-backpack-size: 9
+max-backpack-size: 54
+upgrade-cost:
+  18: 10
+  27: 20
+  36: 30
+  45: 40
+  54: 50
