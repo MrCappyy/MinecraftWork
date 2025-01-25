@@ -6,18 +6,11 @@
 
 ## Features
 
-- **Daily Rewards GUI**: Players can access their rewards via `/rewards`.
+- **Daily Rewards GUI**: Players can access their rewards via `/dailyrewards`.
 - **Streak-Based Rewards**: Rewards improve each day as players maintain their login streak.
 - **Configurable Cooldowns**: The time interval between claims is customizable.
 - **Customizable Loot Tables**: Configure rewards for each streak level in `config.yml`.
 
----
-
-## Installation
-
-1. **Download** the plugin `.jar` file.
-2. Place the `.jar` file in your server's `plugins` folder.
-3. Restart or reload the server.
 
 ---
 
@@ -25,7 +18,7 @@
 
 | Command      | Description                      | Permission          | Default |
 |--------------|----------------------------------|---------------------|---------|
-| `/rewards`   | Opens the Daily Rewards GUI.     | `dailyrewards.use`  | `true`  |
+| `/dailyrewards`   | Opens the Daily Rewards GUI.     | `dailyrewards.use`  | `true`  |
 
 ---
 
