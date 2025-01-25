@@ -39,5 +39,5 @@ I'm **MrCappy**, a dedicated Minecraft plugin developer with over two years of e
 3. **Learn and Adapt:**  
    Feel free to use the source code, adapt it to your needs, or use it as inspiration for your own projects.
 
-4. **Collaboration Encouraged:**  
-   Contributions are welcome! Fork the repo, make changes, and submit a pull request.
+4. **Suggestions Welcome:**  
+   Suggestions for improvement are always welcome! However, as this is a portfolio showcasing my past work, I will not add external code contributions to these projects.
