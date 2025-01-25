@@ -28,9 +28,6 @@ I'm **MrCappy**, a dedicated Minecraft plugin developer with over two years of e
 
 ---
 
-Here’s the updated **README.md** section with your requested changes:
-
----
 
 ## **How to Use This Repository**
 1. **Open Source Access:**  
