@@ -34,7 +34,7 @@ I'm **MrCappy**, a dedicated Minecraft plugin developer with over two years of e
    All plugins in this repository are fully open source, allowing you to explore, learn from, and modify the code.
 
 2. **Building the Plugin:**  
-   A precompiled JAR file is not included. You’ll need to clone the repository and build the plugin yourself using Maven
+   A precompiled JAR file is not included. You’ll need to clone the repository and build the plugin yourself using Maven.
 
 3. **Learn and Adapt:**  
    Feel free to use the source code, adapt it to your needs, or use it as inspiration for your own projects.
