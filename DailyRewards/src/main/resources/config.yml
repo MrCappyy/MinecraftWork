@@ -1,0 +1,6 @@
+rewards:
+  1: "IRON_INGOT:5,COAL:10"
+  2: "IRON_INGOT:10,EMERALD:2"
+  3: "DIAMOND:2,GOLD_INGOT:5"
+  4: "DIAMOND:5,NETHERITE_SCRAP:1"
+cooldown: 86400 # Time in seconds (24 hours)

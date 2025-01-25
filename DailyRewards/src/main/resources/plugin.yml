@@ -1,0 +1,13 @@
+name: DailyRewards
+main: com.mrcappy.plugins.dailyrewards.DailyRewards
+version: 0.0.1
+api-version: 1.21
+commands:
+  dailyrewards:
+    description: Check your daily rewards status.
+    usage: /dailyrewards
+    permission: dailyrewards.use
+permissions:
+  dailyrewards.use:
+    description: Allows a player to claim daily rewards.
+    default: true
