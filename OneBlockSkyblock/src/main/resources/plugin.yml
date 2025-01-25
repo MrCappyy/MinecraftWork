@@ -1,0 +1,24 @@
+name: OneBlockSkyblock
+version: '0.0.1'
+main: com.mrcappy.plugins.oneblockskyblock.OneBlockSkyblock
+api-version: '1.21'
+commands:
+  startoneblock:
+    description: Start your One-Block Skyblock adventure.
+    usage: /startoneblock
+  leaveoneblock:
+    description: Leave the One-Block Skyblock world.
+    usage: /leaveoneblock
+  resetoneblock:
+    description: Reset your own One-Block Skyblock island.
+    usage: /resetoneblock
+  adminresetoneblock:
+    description: Admin-only reset command for another player's island.
+    usage: /adminresetoneblock <player>
+permissions:
+  oneblockskyblock.admin:
+    description: Admin commands for One-Block Skyblock.
+    default: op
+  oneblockskyblock.use:
+    description: General player commands for One-Block Skyblock.
+    default: true

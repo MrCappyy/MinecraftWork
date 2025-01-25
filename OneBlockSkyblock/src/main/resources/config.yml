@@ -1,0 +1,12 @@
+# OneBlockSkyblock Configuration
+
+# General settings
+progression:
+  blocks_to_next_level: 50  # Number of blocks to break before progressing to the next level
+mob_spawn_chance: 5         # Percentage chance to spawn a mob on block break
+
+# World settings
+island:
+  distance: 100  # Distance between islands
+  height: 64     # Y-coordinate for the islands
+  default_block: GRASS_BLOCK  # Starting block
