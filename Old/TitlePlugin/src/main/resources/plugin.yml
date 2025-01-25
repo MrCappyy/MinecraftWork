@@ -1,0 +1,29 @@
+name: PrefixTitles
+version: 1.0.0
+main: com.mrcappy.prefixtitles.PrefixTitles
+api-version: 1.19
+description: A plugin for selecting and managing player titles with admin commands.
+authors: [MrCappy]
+depend: ["PlaceholderAPI"]
+
+commands:
+  prefix:
+    description: Opens the prefix selection GUI.
+    usage: /prefix
+    permission: prefix.use
+    permission-message: "&cYou don't have permission to use this command."
+
+  prefixadmin:
+    description: Admin command to manage and create custom titles.
+    usage: /prefixadmin <create|assign|rename|add|remove> [args]
+    permission: prefix.admin
+    permission-message: "&cYou don't have permission to use this admin command."
+
+permissions:
+  prefix.use:
+    description: Allows the player to use the /prefix command.
+    default: true
+
+  prefix.admin:
+    description: Allows the player to manage and create titles using /prefixadmin.
+    default: op

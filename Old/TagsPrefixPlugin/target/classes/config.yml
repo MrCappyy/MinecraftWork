@@ -1,0 +1,58 @@
+# Tags Configuration
+tags:
+  - cool_tag
+  - gamer_tag
+
+staff_tags:
+  - owner
+  - admin
+  - helper
+
+# Staff Tags
+owner:
+  name: "&6Owner"
+  permission: "tags.owner"
+  color: "YELLOW"
+  default_tag: false
+
+admin:
+  name: "&cAdmin"
+  permission: "tags.admin"
+  color: "RED"
+  default_tag: false
+
+helper:
+  name: "&9Helper"
+  permission: "tags.helper"
+  color: "BLUE"
+  default_tag: false
+
+# Normal Tags
+cool_tag:
+  name: "&bCool Tag"
+  permission: "tags.cool"
+  default_tag: true
+
+gamer_tag:
+  name: "&aGamer Tag"
+  permission: "tags.gamer"
+  default_tag: false
+
+# Navigation Settings
+navigation:
+  previous_page:
+    material: "WHITE_CARPET"
+    name: "&aPrevious Page"
+  next_page:
+    material: "WHITE_CARPET"
+    name: "&aNext Page"
+  no_navigation:
+    material: "GRAY_CARPET"
+    name: "&cNo More Pages"
+
+# GUI Settings
+gui:
+  rows: 3
+  fill_empty_slots: true
+  filler_material: "BLACK_STAINED_GLASS_PANE"
+  filler_name: " "

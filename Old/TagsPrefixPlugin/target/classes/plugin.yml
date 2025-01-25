@@ -1,0 +1,10 @@
+name: TagsPrefixPlugin
+version: 1.0
+main: com.mrcappy.tagsprefixplugin
+api-version: 1.21
+author: MrCappy
+commands:
+  prefix:
+    description: Opens the Prefix selection GUI.
+  tags:
+    description: Opens the Tags selection GUI.

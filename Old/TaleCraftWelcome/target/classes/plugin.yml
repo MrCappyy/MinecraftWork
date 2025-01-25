@@ -1,0 +1,6 @@
+name: TaleCraftWelcome
+main: com.talecraft.welcomeplugin.TaleCraftWelcomePlugin
+version: 0.0.1
+api-version: 1.21
+description: A custom plugin for TaleCraft to welcome players, crafted by MrCappy.
+author: MrCappy

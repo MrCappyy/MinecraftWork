@@ -1,0 +1,7 @@
+name: HomeGUI
+main: com.mrcappy.homeGui.HomeGui
+version: 1.0
+api-version: 1.20
+commands:
+  home:
+    description: Opens the home management GUI.

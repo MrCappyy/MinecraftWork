@@ -1,0 +1,15 @@
+gui-title: "ʜᴏᴍᴇꜱ"
+close-menu-name: "§cᴄʟᴏꜱᴇ ᴍᴇɴᴜ"
+close-menu-lore:
+  - "§7Click to close the menu."
+no-access-name: "§cNo Access"
+no-access-lore: "§7You need §ehome.%home% §7permission."
+home-name: "§bHome %home%"
+home-lore: "§7Click to teleport."
+set-home-name: "§fSet Home %home%"
+set-home-lore: "§7Click to set this home."
+delete-prompt-name: "§cDelete Home"
+delete-prompt-lore: "§7Click to delete this home."
+teleport-countdown: 5
+teleport-countdown-actionbar: "&aTeleporting in &e%time% &aseconds..."
+teleport-success-message: "&aTeleported successfully!"

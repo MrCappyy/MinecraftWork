@@ -1,0 +1,10 @@
+# List of blocks affected by custom Fortune
+fortune-blocks:
+  - DIAMOND_ORE
+  - IRON_ORE
+  - GOLD_ORE
+  - EMERALD_ORE
+  - COPPER_ORE
+
+# Multiplier for Fortune levels
+fortune-multiplier: 2

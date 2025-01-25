@@ -1,0 +1,5 @@
+name: FortunePlugin
+version: '1.0-SNAPSHOT'
+main: com.fortuneplugin.main.FortunePlugin
+api-version: '1.21'
+authors: [ MrCappy ]

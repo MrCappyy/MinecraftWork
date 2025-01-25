@@ -1,0 +1,7 @@
+name: EggSMP
+version: 1.0
+main: com.eggsmp.EggSMP
+api-version: 1.21
+commands:
+  dragoneggreset:
+    description: Reset the Dragon Egg to its original location.

@@ -1,0 +1,45 @@
+inventory:
+  title: "&8❄ &bʀᴀɴᴅᴏᴍ &fᴛᴇʟᴇᴘᴏʀᴛ &8❄"
+  rows: 3
+
+worlds:
+  overworld:
+    slot: 11
+    world: "world"
+    material: "GRASS_BLOCK"
+    name: "&a&lᴏᴠᴇʀᴡᴏʀʟᴅ"
+    lore:
+      - "&7┃ &fClick to randomly teleport"
+      - "&7┃ &aSafe &7locations ensured"
+
+  nether:
+    slot: 13
+    world: "world_nether"
+    material: "NETHERRACK"
+    name: "&c&lɴᴇᴛʜᴇʀ"
+    lore:
+      - "&7┃ &fClick to randomly teleport"
+      - "&7┃ &cSurvive the heat!"
+
+  end:
+    slot: 15
+    world: "world_the_end"
+    material: "END_STONE"
+    name: "&b&lᴇɴᴅ"
+    lore:
+      - "&7┃ &fClick to randomly teleport"
+      - "&7┃ &bReach the void!"
+
+teleport-settings:
+  countdown: 5
+  cooldown:
+    enabled: true
+    time: 30
+    error-sound: "BLOCK_NOTE_BLOCK_BASS"
+
+messages:
+  teleporting: "&a Teleporting you in &e%seconds% &aseconds..."
+  success: "&a Successfully teleported!"
+  cancelled: "&c Teleportation cancelled because you moved."
+  cooldown:
+    active: "&c You are on cooldown! Wait &e%time% &cseconds."

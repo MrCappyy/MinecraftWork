@@ -1,0 +1,8 @@
+name: PlayerCardPlugin
+main: xyz.talecraft.playercard.PlayerCardPlugin
+version: 1.0
+api-version: 1.21
+commands:
+  playercards:
+    description: Manage your player card.
+    usage: /playercards set <field> <value>

@@ -1,0 +1,35 @@
+default-title: "&9Bard"
+
+titles:
+  member:
+    permission: "prefix.member"
+    titles:
+      - "&6Noble"
+      - "&9Bard"
+      - "&eKnight"
+      - "&7Scribe"
+      - "&8Blacksmith"
+      - "&fChandler"
+      - "&2Apothecary"
+      - "&aFletcher"
+      - "&6Cooper"
+      - "&7Miller"
+      - "&fBaker"
+      - "&8Carpenter"
+      - "&bHerald"
+      - "&dMinstrel"
+      - "&3Monk"
+      - "&5Nun"
+      - "&9Alchemist"
+      - "&eMerchant"
+      - "&aFarmer"
+      - "&8Tanner"
+      - "&6Cobbler"
+      - "&fWeaver"
+      - "&3Glassblower"
+      - "&bFishmonger"
+      - "&4Executioner"
+
+cooldown:
+  duration: 120
+  message: "&cYou must wait {time} seconds before selecting another title."

@@ -1,0 +1,10 @@
+name: RTPPro
+version: '1.0'
+main: com.mrcappy.safertp.SafeRTP
+api-version: '1.19'
+commands:
+  rtp:
+    description: Open the random teleport GUI.
+    usage: /rtp
+    permission: rtppro.use
+    permission-message: You don't have permission to use this command.
