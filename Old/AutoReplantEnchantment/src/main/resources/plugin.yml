@@ -1,0 +1,5 @@
+name: AutoReplantEnchantment
+version: '0.0.1'
+main: com.mrcappy.plugins.autoreplant.AutoReplantPlugin
+description: A plugin that adds a custom "Auto Replant" enchantment for hoes.
+api-version: '1.21'

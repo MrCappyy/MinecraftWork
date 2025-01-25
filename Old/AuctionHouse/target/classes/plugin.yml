@@ -1,0 +1,18 @@
+name: AuctionHouse
+version: 1.0
+main: me.mrcappy.auctionhouse.Main
+api-version: "1.20"
+commands:
+  auctionhouse:
+    description: Open the Auction House.
+    aliases: [ah]
+    usage: /<command>
+
+  ahadmin:
+    description: Admin tools for Auction House.
+    usage: /ahadmin [remove|force|logs|reload]
+    permission: auctionhouse.admin
+permissions:
+  auctionhouse.admin:
+    description: Allows access to admin tools.
+    default: op

@@ -1,0 +1,31 @@
+# Auction House Configuration
+
+# General Settings
+default_duration: 3600        # Default auction duration in seconds (1 hour)
+allowed_durations:            # Allowed auction durations (in seconds)
+  - 3600                      # 1 hour
+  - 7200                      # 2 hours
+  - 14400                     # 4 hours
+
+# Economy Settings
+listing_fee: 10               # Cost to list an item
+tax_rate: 5                   # Tax percentage applied on completed sales
+
+# Restricted Items
+blacklisted_items:
+  - "BEDROCK"
+  - "COMMAND_BLOCK"
+  - "BARRIER"
+
+# Notifications
+notifications:
+  bid: true                   # Notify players when their item gets a new bid
+  sold: true                  # Notify players when their item is sold
+  unsold: true                # Notify sellers when their item is unsold
+
+# Logging
+enable_logs: true             # Enable or disable logging for auction events
+log_file: "plugins/AuctionHouse/logs.txt"  # Path to the log file
+
+# GUI Settings
+items_per_page: 45            # Number of items displayed per GUI page

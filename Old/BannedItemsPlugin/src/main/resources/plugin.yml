@@ -1,0 +1,7 @@
+name: BannedItemsPlugin
+main: com.mrcappy.plugins.BannedItemsPlugin
+version: 1.0.0
+description: A plugin to restrict banned items and interactions in Minecraft.
+authors:
+  - MrCappy
+api-version: 1.21

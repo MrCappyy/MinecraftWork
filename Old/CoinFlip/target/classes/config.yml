@@ -1,0 +1,13 @@
+# CoinFlip Configuration
+
+# Multiplier for winnings
+win-multiplier: 2.0
+
+# Messages
+messages:
+  prefix: "&7[&6CoinFlip&7] "
+  win: "&aYou won %amount% coins!"
+  lose: "&cYou lost! Better luck next time."
+  invalid-player: "&cThe specified player is not online!"
+  invalid-amount: "&cThe amount must be greater than zero!"
+  not-enough-money: "&cYou or your opponent don't have enough money!"
