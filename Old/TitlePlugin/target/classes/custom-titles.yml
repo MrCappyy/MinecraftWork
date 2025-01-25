@@ -1,0 +1,11 @@
+titles:
+  title-001:
+    name: "&6Custom Title 1"
+    owner: "PlayerName"
+    permitted: ["PlayerName"]
+    lastRenamed: "2023-12-01T10:00:00Z"
+  title-002:
+    name: "&aSpecial Green Title"
+    owner: "AdminName"
+    permitted: ["AdminName", "Friend2"]
+    lastRenamed: "2023-11-25T08:00:00Z"

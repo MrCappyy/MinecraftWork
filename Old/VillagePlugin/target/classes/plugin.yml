@@ -1,0 +1,29 @@
+name: VillagePlugin
+version: 1.0
+main: com.mrcappy.villageplugin.VillagePlugin
+api-version: 1.20
+author: MrCappy
+description: An advanced villager role plugin with trade GUIs and buffs.
+
+commands:
+  setvillager:
+    description: Assign a villager role to a player.
+    usage: /setvillager <player> <role>
+    permission: villageplugin.setvillager
+
+  trade:
+    description: Open the villager trade menu.
+    usage: /trade
+
+  villagerplugin:
+    description: Reload the plugin configuration.
+    usage: /villagerplugin reload
+    permission: villageplugin.admin
+
+permissions:
+  villageplugin.setvillager:
+    description: Allows setting villager roles.
+    default: op
+  villageplugin.admin:
+    description: Allows reloading the plugin configuration.
+    default: op

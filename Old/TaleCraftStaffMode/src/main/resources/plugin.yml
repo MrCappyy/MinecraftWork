@@ -1,0 +1,12 @@
+name: TaleCraftStaffMode
+main: com.xyz.talecraft.staffmode.StaffModePlugin
+version: 1.0
+author: MrCappy
+commands:
+  staffmode:
+    description: Toggles staff mode for admins.
+    usage: /staffmode
+permissions:
+  staffmode.use:
+    description: Allows the use of staff mode.
+    default: op

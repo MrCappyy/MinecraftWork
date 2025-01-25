@@ -1,0 +1,28 @@
+roles:
+  ARMORER:
+    buff: RESISTANCE
+    level: 0
+    trades:
+      - material: DIAMOND_CHESTPLATE
+        name: "&bDiamond Chestplate"
+        lore:
+          - "&7Price: 1 Emerald"
+        quantity: 1
+  LIBRARIAN:
+    buff: HEALTH_BOOST
+    level: 1
+    trades:
+      - material: ENCHANTED_BOOK
+        name: "&aMending Book"
+        lore:
+          - "&7Price: 1 Emerald"
+        quantity: 1
+  CLERIC:
+    buff: STRENGTH
+    level: 1
+    trades:
+      - material: POTION
+        name: "&cStrength II Potion"
+        lore:
+          - "&7Price: 1 Emerald"
+        quantity: 1

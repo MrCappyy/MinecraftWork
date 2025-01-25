@@ -1,0 +1,14 @@
+settings:
+  enableOreVeinMining: true        # Toggle for ore vein mining
+  enableLogVeinMining: true        # Toggle for log vein mining
+  maxBlocksPerVein: 128            # Max blocks to mine in one chain
+  tools:
+    oreTools:                      # Tools allowed for mining ores
+      - DIAMOND_PICKAXE
+      - NETHERITE_PICKAXE
+      - IRON_PICKAXE
+    logTools:                      # Tools allowed for mining logs
+      - DIAMOND_AXE
+      - NETHERITE_AXE
+      - IRON_AXE
+  durabilityLoss: true             # Whether tools lose durability

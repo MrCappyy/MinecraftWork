@@ -1,0 +1,13 @@
+staffmode:
+  xray-radius: 10
+  xray-ores:
+    - DIAMOND_ORE
+    - GOLD_ORE
+    - EMERALD_ORE
+    - IRON_ORE
+    - CHEST
+  vanish:
+    auto-enable: true
+  cooldowns:
+    xray: 5
+    staffmode: 10
