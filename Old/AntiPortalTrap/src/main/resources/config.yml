@@ -1,0 +1,13 @@
+# AntiPortalTrap Plugin Configuration
+
+# Webhook URL for Discord notifications
+webhook_url: "https://your.discord.webhook.url"
+
+# Time (in seconds) a player must stay in a portal to trigger detection
+detection_time: 15
+
+# Countdown time (in seconds) before teleporting a trapped player
+countdown_time: 5
+
+# Radius (in blocks) to search for a safe location near the original portal
+safe_search_radius: 5

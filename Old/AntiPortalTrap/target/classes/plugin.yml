@@ -1,0 +1,14 @@
+name: AntiPortalTrap
+version: '1.0-SNAPSHOT'
+main: com.mrcappy.antitrap.AntiPortalTrap
+api-version: '1.21'
+authors: [ MrCappy ]
+description: Prevent players from getting stuck in portal traps!
+commands:
+  antitrap:
+    description: Teleport a player out of a portal trap manually
+    usage: /antitrap <player>
+permissions:
+  antitrap.admin:
+    description: Allows the use of the /antitrap command
+    default: op
