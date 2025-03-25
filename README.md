@@ -5,7 +5,7 @@ Welcome to my Minecraft plugin development portfolio! This repository showcases 
 ---
 
 ## **About Me**
-I'm **MrCappy**, a dedicated Minecraft plugin developer with over two years of experience. I specialize in designing robust, scalable plugins that enhance server gameplay. Whether it's crafting immersive mechanics, building complex systems, or creating simple utilities, I aim for precision and creativity in every project.
+I'm **MrCappy**, a dedicated Minecraft plugin developer with over three years of experience. I specialize in designing robust, scalable plugins that enhance server gameplay. Whether it's crafting immersive mechanics, building complex systems, or creating simple utilities, I aim for precision and creativity in every project.
 
 ---
 
