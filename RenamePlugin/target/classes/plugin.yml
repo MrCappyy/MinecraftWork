@@ -1,0 +1,12 @@
+name: RenamePlugin
+version: 1.0
+main: me.mrcappy.renameplugin.RenamePlugin
+api-version: 1.13
+commands:
+  rename:
+    description: Rename a player
+    usage: /rename <player> <newname>
+    permission: rename.use
+permissions:
+  rename.use:
+    default: op
